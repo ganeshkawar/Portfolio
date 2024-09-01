@@ -1,0 +1,62 @@
+#myHome{
+    width: 100%;
+    display: flex;
+   
+}
+
+.div{
+    width: 50%;
+    height: 60vh;
+    font-size: 28px;
+    padding: 50px;   
+    /* border: 2px solid green; */
+}
+
+#first_para{
+    font-size: 40px;
+    line-height: 35px;
+}
+
+#gkText {
+    display:inline-flex;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.10em solid orange; /* Optional: to give it a cursor effect */
+    animation: typing 10s steps(15) infinite, blink-caret 0.8s infinite;
+  }
+  
+  @keyframes typing {
+  0% { width:0 }
+  25% { width: 13% }
+  48% { width: 25% }
+  50% { width: 35% }
+  55% { width: 52% }
+  75% { width: 25%; }
+  85% { width: 13%; }
+  100% { width: 0; }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: orange; }
+  }
+
+#second_para{
+    font-size: 25px;
+    line-height: 35px;
+}
+
+
+
+#gkimg{
+    width: 50%;
+    height: 60vh;
+    align-self: center;
+    margin-top: 15px;
+    margin-left: 150px;
+    padding: 0px 2px 0px 2px;
+    box-shadow: 8px 4px 40px red;
+    /* border: 2px solid red; */
+}
+
+

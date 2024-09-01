@@ -1,0 +1,98 @@
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    position: relative;
+    
+}
+
+#gkLogo{
+    width: 330px;
+    height: 55px;
+    padding-left: 40px;
+}
+
+#nav .menu-icon{
+    display: none;   
+    position: absolute;
+    top: 60px;
+    right: 40px;
+}
+#nav .close-icon{
+    display: none;
+}
+
+
+.firstP{
+    box-sizing: border-box;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 750;   
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    transition: all 0.5s ease-in-out;
+ 
+}
+
+
+.firstP a:hover{
+    color: #17cf97;
+}
+
+
+
+
+@media (max-width:480px){
+    #nav{
+        flex-direction: column;
+        position: relative;
+    }
+    
+    #gkLogo{
+        width: 250px;
+        height: 40px;
+        margin-top: 20px;
+        margin-right:100px;
+    }
+    
+  
+    #nav .menu-icon{
+        display: flex;
+        position: absolute;
+        top: 50px;
+        right: 5px;
+    }
+    #nav .close-icon{
+        display: flex;
+        position: absolute;
+        top: 50px;
+        right: 5px;
+    }
+
+    .firstP{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        /* margin-bottom:0.25rem; */
+        flex-direction: column;
+        transition: all 0.5s ease-in-out;
+    }
+    .firstP a{
+        display: none;
+        width: 100%;
+        margin-bottom:0.25rem;
+    }
+    .firstP a.open{
+        display: flex;
+        color: white;    
+        
+    }
+
+    .firstP a:hover{
+        color: #17cf97;
+    }
+}
