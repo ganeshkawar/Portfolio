@@ -1,0 +1,61 @@
+.experience-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  padding-top: 80px;
+
+}
+
+@media (max-width: 1440px) {
+  .experience-container {
+    width: 85%;
+
+  }
+  .MuiAccordionSummary-content .MuiTypography-root {
+    font-weight:bold;
+  }
+}
+
+@media (max-width: 992px) {
+  .experience-container {
+    width: 95%;
+  }
+  .MuiAccordionSummary-content .MuiTypography-root {
+    font-weight:bold;
+  }
+}
+
+@media (max-width: 768px) {
+  .experience-container {
+    width: 100%;
+    margin: 100px;
+    padding:0px;
+  }
+
+  .MuiAccordionSummary-content .MuiTypography-root {
+    font-weight:bold;
+  }
+}
+
+@media (max-width: 576px) {
+  .experience-container {
+    width: 100%;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 10px;
+  }
+
+  .MuiTypography-root {
+    font-size: 0.9rem;
+  }
+
+  .MuiAccordionSummary-content {
+    flex-direction: column;
+  }
+  
+  .MuiAccordionSummary-content .MuiTypography-root {
+    font-weight:bold;
+    width: 100%;
+    text-align: center;
+  }
+}
